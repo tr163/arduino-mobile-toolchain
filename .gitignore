@@ -1,0 +1,16 @@
+# 本地 Claude Code / CodeGraph 配置
+.claude/
+.codegraph/
+
+# 安装/编译产物
+projects/*/src/
+*.log
+
+# 大体积离线资源：走 GitHub Releases（见 README「离线说明」）
+ubuntu-base.tar.gz
+arduino-offline/tree/
+arduino-offline/esp32-core.zip
+arduino-offline/esp32s3-libs.zip
+arduino-offline/esptool.tar.gz
+arduino-offline/xtensa-14.tar.gz
+arduino-offline/xtensa-elf.tar.gz
